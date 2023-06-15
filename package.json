@@ -1,7 +1,7 @@
 {
   "name": "react-coming-soon-page",
   "version": "1.0.0",
-  "description": "React site under construction page to showcase countdown timer and opt-in form components.",
+  "description": "React site under contruction page to showcase countdown timer and opt-in form components.",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
@@ -14,15 +14,23 @@
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
