@@ -22,4 +22,4 @@ const EdokPrivacyPolicy = () => {
     );
 };
 
-export default SShPrivacyPolicy;
+export default EdokPrivacyPolicy;
