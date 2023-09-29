@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import SShPrivacyPolicy from "./SssTerminalPrivacyPolicy";
 import Home from "./home";
-import EdokPrivacyPolicy from "../EdokPrivacyPolicy";
+import EdokPrivacyPolicy from "./EdokPrivacyPolicy";
 
 function App() {
     return (
