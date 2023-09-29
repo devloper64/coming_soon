@@ -8,6 +8,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/privacy-policy-ssh-terminal" element={<SShPrivacyPolicy />} />
+                <Route path="/privacy-policy-edok" element={<SShPrivacyPolicy />} />
             </Routes>
         </Router>
     );
